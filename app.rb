@@ -3,7 +3,7 @@ require 'sinatra/base'
 class App < Sinatra::Base
 
   get '/newteam' do
-    @teamname = params["name"]
+    @name = params[:name"]
     @coach = params["name"]
     @pg = params["name"]
     @sg = params["name"]
